@@ -1,0 +1,25 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-11-27"
+---
+
+```{r setup, include=FALSE}
+#Hello here is my RMD file that goes in my repository! 
+```
+
+
+
+
+```{r cars}
+#here is some fun code
+data(Loblolly)
+summary(Loblolly)
+```
+
+
+
+```{r pressure, echo=FALSE}
+mean(Loblolly$height)
+```
+
